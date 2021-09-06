@@ -6417,6 +6417,14 @@ video {
   height: 100vh;
 }
 
+.h-bigsection {
+  height: 48rem;
+}
+
+.h-aboutsection {
+  height: 36rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -22871,6 +22879,10 @@ video {
 
 .font-judul {
   font-family: Raleway, sans-serif;
+}
+
+.font-main {
+  font-family: Roboto, sans-serif;
 }
 
 .text-xs {
@@ -40202,6 +40214,14 @@ video {
     height: 100vh;
   }
 
+  .sm\:h-bigsection {
+    height: 48rem;
+  }
+
+  .sm\:h-aboutsection {
+    height: 36rem;
+  }
+
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -56592,6 +56612,10 @@ video {
     font-family: Raleway, sans-serif;
   }
 
+  .sm\:font-main {
+    font-family: Roboto, sans-serif;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -72275,6 +72299,14 @@ video {
 
   .md\:h-screen {
     height: 100vh;
+  }
+
+  .md\:h-bigsection {
+    height: 48rem;
+  }
+
+  .md\:h-aboutsection {
+    height: 36rem;
   }
 
   .md\:max-h-0 {
@@ -88667,6 +88699,10 @@ video {
     font-family: Raleway, sans-serif;
   }
 
+  .md\:font-main {
+    font-family: Roboto, sans-serif;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -104350,6 +104386,14 @@ video {
 
   .lg\:h-screen {
     height: 100vh;
+  }
+
+  .lg\:h-bigsection {
+    height: 48rem;
+  }
+
+  .lg\:h-aboutsection {
+    height: 36rem;
   }
 
   .lg\:max-h-0 {
@@ -120742,6 +120786,10 @@ video {
     font-family: Raleway, sans-serif;
   }
 
+  .lg\:font-main {
+    font-family: Roboto, sans-serif;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -136425,6 +136473,14 @@ video {
 
   .xl\:h-screen {
     height: 100vh;
+  }
+
+  .xl\:h-bigsection {
+    height: 48rem;
+  }
+
+  .xl\:h-aboutsection {
+    height: 36rem;
   }
 
   .xl\:max-h-0 {
@@ -152817,6 +152873,10 @@ video {
     font-family: Raleway, sans-serif;
   }
 
+  .xl\:font-main {
+    font-family: Roboto, sans-serif;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -168500,6 +168560,14 @@ video {
 
   .\32xl\:h-screen {
     height: 100vh;
+  }
+
+  .\32xl\:h-bigsection {
+    height: 48rem;
+  }
+
+  .\32xl\:h-aboutsection {
+    height: 36rem;
   }
 
   .\32xl\:max-h-0 {
@@ -184890,6 +184958,10 @@ video {
 
   .\32xl\:font-judul {
     font-family: Raleway, sans-serif;
+  }
+
+  .\32xl\:font-main {
+    font-family: Roboto, sans-serif;
   }
 
   .\32xl\:text-xs {

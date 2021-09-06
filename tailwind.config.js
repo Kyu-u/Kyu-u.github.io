@@ -13,7 +13,8 @@ module.exports = {
       },
       fontFamily: {
         navbar: ['Open Sans, sans-serif'],
-        judul: ['Raleway, sans-serif']
+        judul: ['Raleway, sans-serif'],
+        main: ['Roboto, sans-serif'],
 
       },
       width: {
@@ -26,8 +27,13 @@ module.exports = {
       },
       maxWidth: {
         'full': '1920px',
-      }
+      },
       
+      height: {
+        'bigsection': '48rem',
+        'aboutsection' : '36rem',
+      },
+
     },
   },
   variants: {

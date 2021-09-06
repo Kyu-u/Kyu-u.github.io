@@ -7,26 +7,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body class="font-navbar text-maintext-0 bg-bg1-0">
+<body class="font-navbar text-maintext-0 bg-bg1-0 font-main">
 
   <!-- Content Wrapper -->
   <div class="max-w-full mx-auto">
 
     <!-- Navigation -->
-    <nav class="">
-      <div class="flex items-center max-w-5xl mx-auto  h-16 justify-between gap-x-5 w-full">
+    <!-- <nav class="">
+      <div class="flex items-center max-w-5xl mx-auto text-bg2-0 text-xl h-16 justify-between gap-x-5 w-full">
         <div> aaaa</div>
         <div> aaaa</div>
         <div> aaaa</div>
 
       </div>
-    </nav>
+    </nav> -->
+
+    <!-- Content -->
+
+    <section class="max-w-5xl mx-auto h-bigsection flex flex-row items-center text-bigtext-0 relative">
+      <div>
+        <h2 data-aos="fade-right" data-aos-duration="1000" class="text-7xl align-middle inline-block">Merhaba, I'm Mel
+        </h2>
+        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"
+          class="text-5xl align-middle inline-block">An Informatics Student</h2>
+      </div>
+
+      <div class="absolute right-0">
+        <img class="object-contain w-96" data-aos="fade-left" data-aos-duration="1000" src="images/realremoveaaa.png"
+          alt="">
+
+      </div>
+    </section>
+
+    <section class=" h-aboutsection bg-white">
+      <div class=" mx-auto max-w-5xl flex items-center justify-between h-full">
+        <div class="flex flex-1 justify-between items-center">
+          <h2 class="text-smalltitle-0 text-3xl font-light">
+            About me
+          </h2>
+          <p class="text-maintext-0 w-60 text-lg">
+            I am very hardworking in things I am passionate about and currently, I am trying to find my way in Front-End Development using Tailwind-CSS.
+          </p>
+        </div>
+        <div class="flex  flex-1 justify-center items-center">
+          <img src="images/tailwind-css-logo.png" alt="">
+        </div>
+
+      </div>
+    </section>
+
+    <section class=" h-aboutsection bg-bg1-0">
+      <div class=" mx-auto max-w-5xl flex items-center justify-between h-full">
+
+
+      </div>
+    </section>
 
 
   </div>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
